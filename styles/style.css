@@ -188,6 +188,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  margin: 0;
 }
 
 .person_name_feynman {
@@ -339,7 +340,7 @@
   display: flex;
   flex-basis: auto;
   column-gap: 40px;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -400,7 +401,6 @@
 .about__paragraph {
   display: flex;
   margin: 0;
-  margin-bottom: 32px;
 }
 
 .about__paragraph:not(:last-child) {
@@ -480,5 +480,5 @@
 }
 
 .footer__copyright {
-  margin: 108px 0 80px 40px;
+  margin: 108px 0 60px 40px;
 }
